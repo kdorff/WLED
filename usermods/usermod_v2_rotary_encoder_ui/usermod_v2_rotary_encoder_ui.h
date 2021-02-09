@@ -50,6 +50,7 @@
  * Should be ordered from JSON_mode_names array in FX.h.
  * 
  * NOTE: If JSON_mode_names changes, this will need to be updated.
+ * NOTE: I tested this with PROGMEM and it crashes upon startup.
  */
 const byte modes_alpha_order[] = {
     0, 27, 38, 115, 1, 26, 91, 68, 2, 88, 102, 114, 28, 31, 32,
@@ -66,6 +67,7 @@ const byte modes_alpha_order[] = {
  * Should be ordered from JSON_palette_names array in FX.h.
  *
  * NOTE: If JSON_palette_names changes, this will need to be updated.
+ * NOTE: I tested this with PROGMEM and it crashes upon startup.
  */
 const byte palettes_alpha_order[] = { 
   0, 1, 2, 3, 4, 5, 18, 46, 51, 50, 55, 39, 26, 22, 15,

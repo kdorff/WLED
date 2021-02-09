@@ -1,0 +1,18 @@
+d1_mini, 33 LEDs
+Free heap after about 45 seconds of uptime
+
+All mods installed
+   Free heap 20.4    +2.0
+   After running a bit 21.2
+No mods and no Wire and u8 libs
+   Free heap 22.4
+Just Autosave
+   Free heap 22.3    +0.1
+Just RE
+   Free heap 22.0    +0.4
+Just SSD1306
+   Free heap 21.5    +0.9
+Just SSD1306+RE
+   Free heap 21.3    +1.0
+All 3 Mods
+   Free heap 
